@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Background Music Player",
+  "version": "1.0",
+  "description": "Plays any selected track in the background while you do any activity",
+	"browser_action": {
+		"default_title": "Music Player",
+		"default_popup": "popout.html"
+	},
+
+  "background":{
+    "page": "background.html",
+    "persistent": true
+  }
+  
+}
